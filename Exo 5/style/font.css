@@ -1,0 +1,19 @@
+.fontRoboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.text-alignCenter {
+  text-align: center;
+}

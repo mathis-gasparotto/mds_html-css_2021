@@ -1,0 +1,17 @@
+.page-index {
+  nav {
+    ul {
+      li {
+        a[href="index.html"] {
+          background-color: $primaryColor;
+        }
+      }
+    }
+  }
+  #promotion-mds {
+    img {
+      width: 650px;
+      height: 520px;
+    }
+  }
+}

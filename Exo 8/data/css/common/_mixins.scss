@@ -1,0 +1,35 @@
+// Media Queries
+@mixin desktop {
+  @media screen and (max-width: map-get($breakpoint, desktop)) {
+    @content;
+  }
+}
+
+@mixin tablet-landscape {
+  @media screen and (max-width: map-get($breakpoint, tablet-landscape)) {
+    @content;
+  }
+}
+
+@mixin tablet-portrait {
+  @media screen and (max-width: map-get($breakpoint, tablet-portrait)) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: map-get($breakpoint, mobile)) {
+    @content;
+  }
+}
+
+// Others
+@mixin card {
+  width: 575px;
+  margin: 10px;
+  padding: 10px;
+}
+
+@mixin border($color) {
+  border: 2px solid $color;
+}

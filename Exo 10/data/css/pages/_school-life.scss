@@ -1,0 +1,11 @@
+.page-school-life {
+  nav {
+    ul {
+      li {
+        a[href="school_life.html"] {
+          background-color: $primaryColor;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+header {
+  padding: 1em 5em;
+  background-color: $headerColor;
+  display: flex;
+  flex-direction: column;
+}
+
+#top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#top-header img {
+  height: 5em;
+}
+
+#nav-header ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  @include mobile {
+    display: none;
+  }
+}
+
+#nav-header li {
+  background-color: black;
+  padding: 0.5em 1em;
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+#nav-header ul a {
+  color: white;
+  text-decoration: none;
+}
+
+#nav-mobile {
+  display: none;
+  @include mobile {
+    display: initial;
+  }
+}
+
+#nav-mobile select {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  height: 4em;
+}

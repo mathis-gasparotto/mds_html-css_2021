@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  transition: all ease-in-out 300ms, font-size 0s;
+}
+
+body {
+  margin: 0;
+}
+
+#page-content,
+header nav {
+  margin: 0 auto;
+  width: 75vw;
+  @include mobile {
+    width: 95vw;
+  }
+}
+
+.btn-blue {
+  padding: 0.6rem 1.3rem;
+  color: white !important;
+  background-color: $secondaryColor;
+  transition: 0.3s;
+  color: $textColor;
+  text-decoration: none;
+  &:hover {
+    background-color: $primaryColor;
+    transition: 0.3s;
+  }
+}
+
+.btn-yellow {
+  padding: 0.6rem 1.3rem;
+  color: white !important;
+  background-color: $thirdColor;
+  color: $textColor;
+  text-decoration: none;
+}
+
+a {
+  color: $primaryColor;
+}
+
+.txt-align-center {
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../data/css/style.scss"
+	],
+	"sourcesContent": [
+		"//  Variables\r\n$blue: #0000FF;\r\n$red: #FF0000;\r\n$green: #00FF00;\r\n$yellow: #FFFF00;\r\n//  Backgrounds\r\n$colors :( blue: $blue, red: $red, green: $green, yellow: $yellow);\r\n@each $color,\r\n$hex in $colors {\r\n  .bg-#{$color} {\r\n    background-color: $hex;\r\n  }\r\n}\r\n\r\n//  Margins\r\n$margins :( 0: 0px, 20: 20px, 25: 25px);\r\n@each $margin,\r\n$hex in $margins {\r\n  .m-#{$margin} {\r\n    margin: $hex;\r\n  }\r\n}\r\n\r\n//  Widths\r\n$widths :( 300: 300px, 800: 800px);\r\n@each $width,\r\n$hex in $widths {\r\n  .w-#{$width} {\r\n    width: $hex;\r\n  }\r\n}\r\n\r\n//  Heights\r\n$heights :( 600: 600px);\r\n@each $height,\r\n$hex in $heights {\r\n  .h-#{$height} {\r\n    height: $hex;\r\n  }\r\n}\r\n\r\n//  Shadow\r\n@mixin custom-shadow($color: rgba(149, 157, 165, 0.2)) {\r\n  box-shadow: $color 0px 8px 24px;\r\n}\r\n\r\n.card {\r\n  @include custom-shadow;\r\n  &:hover {\r\n    @include custom-shadow(rgba(149, 157, 165, 0.4));\r\n  }\r\n}"
+	],
+	"names": [],
+	"mappings": ";;AASE,AAAA,QAAQ,CAAM;EACZ,gBAAgB,EATb,OAAO;CAUX;;;AAFD,AAAA,OAAO,CAAO;EACZ,gBAAgB,EARd,OAAO;CASV;;;AAFD,AAAA,SAAS,CAAK;EACZ,gBAAgB,EAPZ,OAAO;CAQZ;;;AAFD,AAAA,UAAU,CAAI;EACZ,gBAAgB,EANX,OAAO;CAOb;;;AAOD,AAAA,IAAI,CAAU;EACZ,MAAM,EAJK,GAAG;CAKf;;;AAFD,AAAA,KAAK,CAAS;EACZ,MAAM,EAJc,IAAI;CAKzB;;;AAFD,AAAA,KAAK,CAAS;EACZ,MAAM,EAJwB,IAAI;CAKnC;;;AAOD,AAAA,MAAM,CAAO;EACX,KAAK,EAJO,KAAK;CAKlB;;;AAFD,AAAA,MAAM,CAAO;EACX,KAAK,EAJmB,KAAK;CAK9B;;;AAOD,AAAA,MAAM,CAAQ;EACZ,MAAM,EAJO,KAAK;CAKnB;;;AAQH,AAAA,KAAK,CAAC;EAHJ,UAAU,EADiB,wBAAwB,CAChC,GAAG,CAAC,GAAG,CAAC,IAAI;CAQhC;;;AALD,AAEE,KAFG,AAEF,MAAM,CAAC;EALR,UAAU,EAMe,wBAAwB,CAN9B,GAAG,CAAC,GAAG,CAAC,IAAI;CAO9B"
+}

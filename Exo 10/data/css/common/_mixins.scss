@@ -1,0 +1,32 @@
+// Media Queries
+@mixin desktop {
+  @media screen and (max-width: map-get($breakpoints, desktop)) {
+    @content;
+  }
+}
+
+@mixin tablet-landscape {
+  @media screen and (max-width: map-get($breakpoints, tablet-landscape)) {
+    @content;
+  }
+}
+
+@mixin tablet-portrait {
+  @media screen and (max-width: map-get($breakpoints, tablet-portrait)) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: map-get($breakpoints, mobile)) {
+    @content;
+  }
+}
+
+@mixin breakpoint($px) {
+  @media screen and (max-width: $px) {
+    @content;
+  }
+}
+
+// Others

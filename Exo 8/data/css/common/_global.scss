@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  transition: all ease-in-out 300ms, font-size 0s;
+}
+
+body {
+  margin: 0;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+  height: 90vh;
+}
+
+.card {
+  @include card;
+  background-color: $color;
+  color: changeColorText($color);
+  &--disabled {
+    @include card;
+    color: $colorDisabled;
+    background-color: $bgDisabled;
+    &--bordered {
+      @include card;
+      color: $colorDisabled;
+      background-color: initial;
+      @include border($colorDisabled);
+    }
+  }
+  &--bordered {
+    @include card;
+    color: $color;
+    background-color: initial;
+    @include border($color);
+  }
+}

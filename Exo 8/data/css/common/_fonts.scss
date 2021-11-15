@@ -1,0 +1,16 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  @include desktop {
+    font-size: 15px;
+  }
+  @include tablet-landscape {
+    font-size: 14px;
+  }
+  @include tablet-portrait {
+    font-size: 13px;
+  }
+  @include mobile {
+    font-size: 12px;
+  }
+}

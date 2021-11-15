@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* line 10, ../../../Users/mathi/OneDrive - EduServices/MDS/B2/Cours/Intégration web/HTML & CSS/Exo 5/data/css/style.scss */
+.bg-blue {
+  background-color: #0000FF;
+}
+
+/* line 10, ../../../Users/mathi/OneDrive - EduServices/MDS/B2/Cours/Intégration web/HTML & CSS/Exo 5/data/css/style.scss */
+.bg-red {
+  background-color: #FF0000;
+}
+
+/* line 10, ../../../Users/mathi/OneDrive - EduServices/MDS/B2/Cours/Intégration web/HTML & CSS/Exo 5/data/css/style.scss */
+.bg-green {
+  background-color: #00FF00;
+}
+
+/* line 10, ../../../Users/mathi/OneDrive - EduServices/MDS/B2/Cours/Intégration web/HTML & CSS/Exo 5/data/css/style.scss */
+.bg-yellow {
+  background-color: #FFFF00;
+}
+
+/* line 19, ../../../Users/mathi/OneDrive - EduServices/MDS/B2/Cours/Intégration web/HTML & CSS/Exo 5/data/css/style.scss */
+.m-0 {
+  margin: 0px;
+}
+
+/* line 19, ../../../Users/mathi/OneDrive - EduServices/MDS/B2/Cours/Intégration web/HTML & CSS/Exo 5/data/css/style.scss */
+.m-20 {
+  margin: 20px;
+}
+
+/* line 19, ../../../Users/mathi/OneDrive - EduServices/MDS/B2/Cours/Intégration web/HTML & CSS/Exo 5/data/css/style.scss */
+.m-25 {
+  margin: 25px;
+}
+
+/* line 28, ../../../Users/mathi/OneDrive - EduServices/MDS/B2/Cours/Intégration web/HTML & CSS/Exo 5/data/css/style.scss */
+.w-300 {
+  width: 300px;
+}
+
+/* line 28, ../../../Users/mathi/OneDrive - EduServices/MDS/B2/Cours/Intégration web/HTML & CSS/Exo 5/data/css/style.scss */
+.w-800 {
+  width: 800px;
+}
+
+/* line 37, ../../../Users/mathi/OneDrive - EduServices/MDS/B2/Cours/Intégration web/HTML & CSS/Exo 5/data/css/style.scss */
+.h-600 {
+  height: 600px;
+}
+
+/* line 47, ../../../Users/mathi/OneDrive - EduServices/MDS/B2/Cours/Intégration web/HTML & CSS/Exo 5/data/css/style.scss */
+.card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* line 49, ../../../Users/mathi/OneDrive - EduServices/MDS/B2/Cours/Intégration web/HTML & CSS/Exo 5/data/css/style.scss */
+.card:hover {
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+}
+
+/*# sourceMappingURL=style.css.map */

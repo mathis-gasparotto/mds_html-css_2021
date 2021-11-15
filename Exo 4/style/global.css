@@ -1,0 +1,55 @@
+.m-20 {
+  margin: 20px;
+}
+
+.m-25 {
+  margin: 25px;
+}
+
+.w-800 {
+  width: 800px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.w-302 {
+  width: 302px;
+}
+
+.h-600 {
+  height: 600px;
+}
+
+.absoluteTop0 {
+  position: absolute;
+  top: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.flexWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.absoluteBottom20 {
+  position: absolute;
+  bottom: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.borderGray {
+  border: 1px solid gray;
+}

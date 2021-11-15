@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  transition: all ease-in-out 300ms, font-size 0s;
+}
+
+body {
+  margin: 0;
+}
+
+.btn {
+  padding: 0.6rem 1.3rem;
+  color: $secondaryColor;
+  background-color: $primaryColor;
+  transition: 0.3s;
+  border-radius: 3px;
+  &:hover {
+    color: $primaryColor;
+    background-color: $secondaryColor;
+    transition: 0.3s;
+  }
+}
+
+button {
+  border: none;
+}
+
+a {
+  color: $textColor;
+  text-decoration: none;
+}

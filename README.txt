@@ -1,0 +1,1 @@
+Nouveauté de cette année : SASS (concéption en mode objet, ...)

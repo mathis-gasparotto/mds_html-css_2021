@@ -1,0 +1,190 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+@media screen and (max-width: 1400px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  body {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+h1 {
+  font-size: 2.7em;
+  color: #2db7c4;
+}
+
+h2 {
+  font-size: 2.1em;
+  color: #ffbd1d;
+}
+
+h3 {
+  font-size: 1.8em;
+  color: #f74d9d;
+}
+
+h4 {
+  font-size: 1.5em;
+  color: #f74d9d;
+}
+
+h5 {
+  font-size: 1.3em;
+  color: #f74d9d;
+}
+
+h6 {
+  font-size: 1.1em;
+  color: #f74d9d;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all ease-in-out 300ms, font-size 0s;
+  transition: all ease-in-out 300ms, font-size 0s;
+}
+
+body {
+  margin: 0;
+}
+
+#page-content,
+header nav {
+  margin: 0 auto;
+  width: 75vw;
+}
+
+@media screen and (max-width: 767px) {
+  #page-content,
+  header nav {
+    width: 95vw;
+  }
+}
+
+.btn-blue {
+  padding: 0.6rem 1.3rem;
+  color: white !important;
+  background-color: #3c3c3b;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: black;
+  text-decoration: none;
+}
+
+.btn-blue:hover {
+  background-color: #2db7c4;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-yellow {
+  padding: 0.6rem 1.3rem;
+  color: white !important;
+  background-color: #ffbd1d;
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  color: #2db7c4;
+}
+
+.txt-align-center {
+  text-align: center;
+}
+
+header #logo-mds {
+  padding: 10px;
+}
+
+header #hero {
+  position: relative;
+}
+
+header #hero #hero-img img {
+  height: 280px;
+  width: 100%;
+}
+
+header #hero #hero-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 99%;
+  background-color: #2e1c43;
+  opacity: 0.5;
+}
+
+header #hero h1 {
+  position: absolute;
+  left: 43%;
+  top: 33%;
+  color: white;
+  font-weight: 300;
+  font-size: 5em;
+  z-index: 5;
+  margin: 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 400px) {
+  header nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+header nav ul a {
+  margin: 1px;
+}
+
+.page-index nav ul li a[href="index.html"] {
+  background-color: #2db7c4;
+}
+
+.page-index #promotion-mds img {
+  width: 650px;
+  height: 520px;
+}
+
+.page-school-life nav ul li a[href="school_life.html"] {
+  background-color: #2db7c4;
+}
+
+.page-contact nav ul li a[href="contact.html"] {
+  background-color: #2db7c4;
+}
+
+.page-contact #contact-btn {
+  margin: 0.7rem 1.3rem;
+}
+/*# sourceMappingURL=main.css.map */

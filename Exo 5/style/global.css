@@ -1,0 +1,27 @@
+.absoluteTop0 {
+  position: absolute;
+  top: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.flexWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.absoluteBottom20 {
+  position: absolute;
+  bottom: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.borderGray {
+  border: 1px solid gray;
+}

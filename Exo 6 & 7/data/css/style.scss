@@ -1,0 +1,32 @@
+// Variables 
+$btn-color: #47ff47;
+// Functions
+@function changeColorHover($color) {
+  @if (lightness($color) < 55%) {
+    @return lighten($color, 15%);
+  }
+  @else {
+    @return darken($color, 15%);
+  }
+}
+
+@function changeColorText($color) {
+  @if (lightness($color) < 55%) {
+    @return white;
+  }
+  @else {
+    @return black;
+  }
+}
+
+// Button
+.btn {
+  background-color: $btn-color;
+  width: 150px;
+  height: 50px;
+  color: changeColorText($btn-color);
+  &:hover {
+    background-color: changeColorHover($btn-color);
+    color: changeColorText(changeColorHover($btn-color));
+  }
+}

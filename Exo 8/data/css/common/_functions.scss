@@ -1,0 +1,8 @@
+@function changeColorText($color) {
+  @if (lightness($color) < 55%) {
+    @return white;
+  }
+  @else {
+    @return black;
+  }
+}

@@ -1,0 +1,44 @@
+header {
+  #logo-mds {
+    padding: 10px;
+  }
+  #hero {
+    position: relative;
+    #hero-img {
+      img {
+        height: 280px;
+        width: 100%;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 99%;
+        background-color: #2e1c43;
+        opacity: 0.5;
+      }
+    }
+    h1 {
+      position: absolute;
+      left: 43%;
+      top: 33%;
+      color: white;
+      font-weight: 300;
+      font-size: 5em;
+      z-index: 5;
+      margin: 0;
+    }
+  }
+  nav {
+    ul {
+      list-style-type: none;
+      display: flex;
+      @include breakpoint(400px) {
+        flex-direction: column;
+      }
+      a {
+        margin: 1px;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: $textColor;
+  @include desktop {
+    font-size: 15px;
+  }
+  @include tablet-landscape {
+    font-size: 14px;
+  }
+  @include tablet-portrait {
+    font-size: 13px;
+  }
+  @include mobile {
+    font-size: 12px;
+  }
+}
+
+h1 {
+  font-size: 2.7em;
+  color: $primaryColor;
+}
+
+h2 {
+  font-size: 2.1em;
+  color: $thirdColor;
+}
+
+h3 {
+  font-size: 1.8em;
+  color: $fourthColor;
+}
+
+h4 {
+  font-size: 1.5em;
+  color: $fourthColor;
+}
+
+h5 {
+  font-size: 1.3em;
+  color: $fourthColor;
+}
+
+h6 {
+  font-size: 1.1em;
+  color: $fourthColor;
+}

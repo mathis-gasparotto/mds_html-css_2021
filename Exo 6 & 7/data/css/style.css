@@ -1,0 +1,12 @@
+.btn {
+  background-color: #47ff47;
+  width: 150px;
+  height: 50px;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #00fa00;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
